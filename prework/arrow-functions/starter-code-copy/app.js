@@ -195,5 +195,5 @@ Student.prototype.scopeArrow = () => console.log(this);
 // 2. What is "this" when joe.scopeArrow() is invoked?
 // It returns the entire instance of the 'Window' object
 // 3. Explain why "this" is different when an arrow function is used.
-// The arrow function definition does not have its own binding to 'this', and 
-// it is not able to bind the stundent object to 'this', and so it binds 
+// The arrow function definition does not have its own binding to 'this', and so
+// it instead of binding student object, it binds to the default window. 
